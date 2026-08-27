@@ -1,0 +1,55 @@
+<!-- design a webpage called "My Personal Portfolio" that makes use of hyperlinks and bookmarks . The page should begin with a main heading and a short introducation , followed by three sections:About me , Projects and Contacts. Use internal links (bookmarks) on top of the page so that clicking on each section name can take user to that section . Include atleast  one external link to your favorite website or social media profile using the anchor <a> tag . To enhance the navigation , also add a "back to Top" link at the end of each section that jumps back to top of the page -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My Personal Portfolio</title>
+</head>
+
+<body>
+    <header id="top">
+        <h1>My Personal Portfolio</h1>
+        <p>Welcome to my personal portfolio. This page shares a little about me, my projects, and how to contact me.</p>
+
+        <nav aria-label="Main navigation">
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Write a short introduction about yourself here.</p>
+            <p><strong>Name:</strong>Harsirat Singh</p>
+            <p><strong>Interests:</strong>Backend Development and System Design</p>
+            <p><strong>Education:</strong>UG</p>
+            <p><a href="#top">Back to Top</a></p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ol>
+                <li>Project 1:</li>
+                <li>Project 2:</li>
+                <li>Project 3:</li>
+            </ol>
+            <p><a href="#top">Back to Top</a></p>
+        </section>
+
+        <section id="contacts">
+            <h2>Contacts</h2>
+            <p><strong>Email:</strong>harsirat7370.bca26ai@chitkara.edu.in</p>
+            <p><strong>Phone:</strong>7009381199</p>
+            <p><strong>Social media:</strong> <a href="">Instagram</a></p>
+            <p><a href="#top">Back to Top</a></p>
+        </section>
+    </main>
+</body>
+
+</html>
