@@ -1,0 +1,81 @@
+<!-- Create a webpage title "Class Time Table" that makes use of HTML tables to display a weekly schedule. The Table should include days of the week as rows and time slots as columns. Use table attribute such as border, cellpadding and cellspacing to improve the appearance -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="1" cellpadding="12" cellspacing="10">
+        <caption>Class Time Table - BCA AI/ML</caption>
+        <tr align="center">
+            <th>Day</th>
+            <th>9.00-9.55</th>
+            <th>9.55-10.50</th>
+            <th>10.50-11.15</th>
+            <th>11.45-12.40</th>
+            <th>12.40-1.35</th>
+            <th>1.35-2.30</th>
+            <th>2.30-3.25</th>
+            <th>3.25-4.20</th>
+        </tr>
+
+        <tr>
+            <td>Monday</td>
+            <td rowspan="2">BasicCS</td>
+            <td>TS</td>
+            <td>Stat.Math</td>
+            <td>PC</td>
+            <td colspan="2">Lunch Break</td>
+            <td>BasicCS-Lab</td>
+            <td>UIDW-Lab</td>
+        </tr>
+
+        <tr>
+            <td>Tuesday</td>
+            <td colspan="2">BasicCS-Lab</td>
+            <td>UIDW-Lab</td>
+            <td colspan="2">Lunch Break</td>
+            <td>TS</td>
+            <td>Stat.Math</td>
+        </tr>
+
+        <tr>
+            <td>Wednesday</td>
+            <td>TS</td>
+            <td>BasicCS</td>
+            <td>Stat.Math</td>
+            <td>UIDW-Lab</td>
+            <td colspan="2">Lunch Break</td>
+            <td>PC</td>
+            <td>BasicCS-Lab</td>
+        </tr>
+
+        <tr>
+            <td>Thursday</td>
+            <td>PC</td>
+            <td>BasicCS</td>
+            <td>TS</td>
+            <td>Stat.Math</td>
+            <td colspan="2">Lunch Break</td>
+            <td>UIDW-Lab</td>
+            <td>BasicCS-Lab</td>
+        </tr>
+
+        <tr>
+            <td>Friday</td>
+            <td>UIDW-Lab</td>
+            <td>BasicCS-Lab</td>
+            <td>PC</td>
+            <td>TS</td>
+            <td colspan="2">Lunch Break</td>
+            <td>BasicCS</td>
+            <td>Stat.Math</td>
+        </tr>
+
+    </table>
+</body>
+
+</html>
